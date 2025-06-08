@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Life4Cuts Style Photobooth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="photobooth">
+    <video id="video" autoplay></video>
+    <div id="countdown"></div>
+    <button id="capture-btn">Start Capture</button>
+    <canvas id="canvas" width="328" height="1536"></canvas>
+    <img id="strip-template" src="strip.png" hidden>
+    <a id="download" download="photostrip.png">Download Strip</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
