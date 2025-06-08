@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photobooth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="photobooth">
+    <video id="video" autoplay></video>
+    <div id="countdown"></div>
+    <canvas id="canvas" width="328" height="1536"></canvas>
+    <button id="capture-btn">Capture</button>
+    <a id="download" download="photostrip.png">Download Strip</a>
+    <img id="strip-template" src="strip.png" style="display:none;">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
