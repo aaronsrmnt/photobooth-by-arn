@@ -1,7 +1,7 @@
 body {
   background: #111;
   color: #fff;
-  font-family: sans-serif;
+  font-family: times-new-roman;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,4 +56,5 @@ canvas {
   border-radius: 8px;
   margin-top: 20px;
   border: 2px solid #00ffcc;
+  
 }
