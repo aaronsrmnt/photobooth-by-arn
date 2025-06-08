@@ -48,3 +48,12 @@ canvas {
   margin-top: 20px;
   color: #00ffcc;
 }
+
+#intro-video {
+  width: 240px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 2px solid #00ffcc;
+}
