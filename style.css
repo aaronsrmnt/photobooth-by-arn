@@ -1,7 +1,7 @@
 body {
   background: #111;
   color: #fff;
-  font-family: times-new-roman;
+  font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,9 +52,10 @@ canvas {
 #intro-video {
   width: 240px;
   aspect-ratio: 4 / 5;
+  height: auto;
   object-fit: cover;
+  border: 2px solid #00ffcc;
   border-radius: 8px;
   margin-top: 20px;
-  border: 2px solid #00ffcc;
   
 }
