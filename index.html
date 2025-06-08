@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>1970's photobooth</title>
-  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="photobooth">
-    <video id="video" autoplay></video>
-    <div id="countdown"></div>
-    <button id="capture-btn">Start Capture</button>
-    <canvas id="canvas" width="328" height="1536"></canvas>
-    <img id="strip-template" src="strip.png" hidden>
-    <a id="download" download="photostrip.png">Download Strip</a>
+  <div class="home">
+    <h1>Welcome to 1970’s photobooth</h1>
+    <video id="intro-video" autoplay></video>
+    <a href="booth.html" class="start-btn">Start Photobooth</a>
   </div>
-  <script src="script.js"></script>
+  <script>
+    const video = document.getElementById('intro-video');
+    navigator.mediaDevices.getUserMedia({ video: true }).then(stream => {
+      video.srcObject = stream;
+    });
+  </script>
 </body>
 </html>
